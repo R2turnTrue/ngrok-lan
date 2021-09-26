@@ -24,6 +24,9 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:$fabricVersion")
     val fabricKotlinVersion: String by project
     modImplementation("net.fabricmc:fabric-language-kotlin:$fabricKotlinVersion")
+
+    implementation("org.yaml:snakeyaml:1.29")
+    include("org.yaml:snakeyaml:1.29")
 }
 tasks {
     val javaVersion = JavaVersion.VERSION_16

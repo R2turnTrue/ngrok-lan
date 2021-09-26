@@ -1,0 +1,5 @@
+{
+  "ngrokLanServer.start": "Start LAN with Ngrok",
+  "ngrok.commandline": "Ngrok Command Line",
+  "ngrok.publish.started": "LAN Server tunneled successfully at %s!"
+}

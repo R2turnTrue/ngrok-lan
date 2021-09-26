@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "xyz.r2turntrue.lan.ngrok.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinIntegratedServer",
+    "MixinOpenToLanScreen",
+    "MixinMinecraftClient"
+  ]
+}
